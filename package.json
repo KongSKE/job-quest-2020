@@ -1,0 +1,23 @@
+{
+  "name": "job-quest-2020",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KongSKE/job-quest-2020.git",
+  "author": "<varit.as@ku.th>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.14",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
+}
